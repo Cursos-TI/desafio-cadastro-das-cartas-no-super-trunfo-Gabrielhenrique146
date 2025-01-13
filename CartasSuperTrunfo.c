@@ -14,22 +14,22 @@ int main() {
     int turA01; //Pontos turisticos da cidade
     float areaA01; //Area das cidades
 
-    printf("Digite o nome da cidade A01: \n");
+    printf("Digite o nome da cidade A01: \n"); //Permite ao usuario digitar o nome da cidade
     scanf("%s", &A01);
 
-    printf("Digite a população da cidade: \n");
+    printf("Digite a população da cidade: \n"); //permite ao usuario digitar a população
     scanf("%f", &P01);
 
-    printf("Digite a área da cidade: \n");
-    scanf("%f", &areaA01);
+    printf("Digite a área da cidade: \n"); //Permite ao usuario digitar a área da cidade
+    scanf("%f", &areaA01); 
 
-    printf("Digite o PIB da cidade: \n");
+    printf("Digite o PIB da cidade: \n"); //Permite ao usuario digitar o PIB da cidade
     scanf("%f", &pibA01);
 
-    printf("Digite o numero de pontos turisticos da cidade: \n");
+    printf("Digite o numero de pontos turisticos da cidade: \n"); //Permite ao usuario digitar a quantidade dde numeros turisticos
     scanf("%d", &turA01);
 
-    printf("Cidade: %s \nPopulação: %f \nÁrea da cidade: %f \nPIB: %f \nPontos turisticos: %d \n", A01, P01, areaA01, pibA01, turA01);
+    printf("Cidade: %s \nPopulação: %f \nÁrea da cidade: %f \nPIB: %f \nPontos turisticos: %d \n", A01, P01, areaA01, pibA01, turA01); //Função que relata tudo que o usuario adicionou as opções anteriores
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
